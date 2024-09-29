@@ -6,7 +6,6 @@ from torchvision.datasets import ImageFolder
 from PIL import Image
 import natsort
 
-# Class 
 class ChristmasImages(Dataset):
     
     def __init__(self, path, training=True):
